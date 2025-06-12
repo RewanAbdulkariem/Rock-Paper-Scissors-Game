@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock, Paper & Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="page-title">
+            <span class="rock">Rock</span> 
+            <span class="paper">Paper</span> 
+            <span class="scissors">Scissors</span>
+        </h1>
+    </header>
+
+    <main class="game-container">
+        <div class="round-info">
+            <p class="round">Round <span id="round-num">1</span> of 5</p>
+        </div>
+
+        <section class="scoreboard-container">
+            <div class="player-container">
+                <h2>Player</h2>
+                <img src="Photos/q.png" class="player-image" id="player-image" alt="Player choice">
+                <div class="score" id="human-score">0</div>
+            </div>
+
+            <div class="scoreboard-title">
+                <h2>Scoreboard</h2>
+            </div>
+
+            <div class="computer-container">
+                <h2>Computer</h2>
+                <img src="Photos/q.png" class="computer-image" id="computer-image" alt="Computer choice">
+                <div class="score" id="computer-score">0</div>
+            </div>
+        </section>
+        <p id="final-result"></p>
+
+        <div class="result-message" id="result-message"></div>
+
+        <div class="user-choice" id="user-choice">
+            <img src="Photos/rock_image.png" class="choice" alt="Rock" data-value="rock">
+            <img src="Photos/paper_image.png" class="choice" alt="Paper" data-value="paper">
+            <img src="Photos/scissors_image.png" class="choice" alt="Scissors" data-value="scissors">
+        </div>
+        <button type="button" class="reset-button" id="reset-button">Play Again</button>
+    </main>
+
+    <footer>
+        <p>Developed by Rewan Khaled</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
