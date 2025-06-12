@@ -4,7 +4,9 @@ A simple and fun Rock-Paper-Scissors game built using **HTML**, **CSS**, and **J
 
 
 ## 🚀 How to Run
-
+Visit the link
+https://statuesque-cascaron-46516a.netlify.app/
+or 
 1. **Download or Clone** the repository:
 ```bash
 git clone https://github.com/RewanAbdulkariem/rock-paper-scissors.git
